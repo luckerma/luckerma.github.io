@@ -1,0 +1,12 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - ./resources/assets/*.png
+    - ./resources/assets/*.jpg
+
+website:
+  title: "Luca Uckermann"
+
+format:
+  revealjs: default
