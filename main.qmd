@@ -21,7 +21,7 @@ number-sections: false
 #logo: "./resources/assets/kiiu_logo.png"
 #footer: ""
 
-incremental: true
+incremental: false
 
 format:
   revealjs:
@@ -32,7 +32,7 @@ format:
     progress: true
     touch: true
     transition: slide
-    auto-stretch: true
+    auto-stretch: false
     scrollable: true
     width: 1280
     height: 720
