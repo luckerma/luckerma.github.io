@@ -29,4 +29,25 @@ repos:
     rev: v0.22.0
     hooks:
       - id: markdownlint-cli2
-        args: [--config, .mardownlint-cli2.yaml]
+        args: [--config, .markdownlint-cli2.yaml]
+
+  - repo: local
+    hooks:
+      - id: taplo-format
+        name: taplo-format
+        entry: taplo format
+        language: system
+        files: ^pyproject\.toml$
+
+      - id: taplo-lint
+        name: taplo-lint
+        entry: taplo lint --default-schema-catalogs
+        language: system
+        files: ^pyproject\.toml$
+
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.15.7
+    hooks:
+      - id: ruff-format
+      - id: ruff-check
+        args: [--fix]

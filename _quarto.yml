@@ -4,9 +4,11 @@ project:
   resources:
     - ./resources/assets/*.png
     - ./resources/assets/*.jpg
+    - ./resources/assets/favicon.ico
 
 website:
   title: "Luca Uckermann"
+  favicon: ./resources/assets/favicon.ico
 
 format:
   revealjs: default
