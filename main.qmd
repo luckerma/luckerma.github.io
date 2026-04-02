@@ -18,10 +18,8 @@ toc-title: "Table of contents"
 
 number-sections: false
 
-#logo: "./resources/assets/kiiu_logo.png"
-#footer: ""
-
 incremental: false
+scrollable: false
 
 format:
   revealjs:
@@ -32,10 +30,12 @@ format:
     progress: true
     touch: true
     transition: slide
-    auto-stretch: false
-    scrollable: true
-    width: 1280
-    height: 720
+    center: true
+    auto-stretch: true
+
+    width: 1050
+    height: 700
+    embed-resources: true
 ---
 
 # 🏫 Education
