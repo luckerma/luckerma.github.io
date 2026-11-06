@@ -19,20 +19,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
       - name: Set up Node.js
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@v7
         with:
           node-version: "24"
 
-      - name: Install dependencies
+      - name: Install PDF export dependencies
         run: |
-          sudo apt update
-          sudo apt install -y chromium-browser latexmk texlive-full poppler-utils
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends poppler-utils
           npm install -g decktape
 
       - name: Render site
@@ -46,7 +46,7 @@ jobs:
           pdftoppm -png -r 300 -f 1 -singlefile ./_site/main.pdf ./_site/main-preview
 
       - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v5
         with:
           path: ./_site
 
@@ -59,4 +59,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5

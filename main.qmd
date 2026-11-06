@@ -42,6 +42,7 @@ format:
 
 ## 🎓 TH Köln
 
+- [PhD student (Doctoral School NRW)](https://pknrw.de/en/departments/computer-and-data-science/meet-our-researchers) (10/2026&thinsp;&ndash;&thinsp;present)
 - [M.Sc. Computer Science & Engineering](https://th-koeln.de/en/academics/computer-science--engineering-masters-program_106742.php) (09/2022&thinsp;&ndash;&thinsp;03/2025)
 - [B.Sc. Computer Science & Engineering](https://th-koeln.de/en/academics/computer-science--engineering-bachelors-program_106741.php) (09/2018&thinsp;&ndash;&thinsp;08/2022)
 
@@ -54,7 +55,7 @@ format:
 ## 👨🏻‍🔬 Current Roles
 
 - [Research Associate](https://th-koeln.de/personen/luca.uckermann/) (04/2025&thinsp;&ndash;&thinsp;present)
-- [Lecturer](https://th-koeln.de/weiterbildung/ki-im-unternehmen_130040.php/) (03/2026&thinsp;&ndash;&thinsp;present)
+- [Lecturer](https://th-koeln.de/weiterbildung/ki-im-unternehmen_130040.php) (03/2026&thinsp;&ndash;&thinsp;present)
 
 ## 👨🏻‍💻 Previous Roles
 
@@ -74,9 +75,9 @@ format:
 # 📝 Theses
 
 - Master's Thesis:\
-  &raquo;From Detection to Association: A Real-Time Framework for Multi-Target Multi-Camera Tracking using Heterogeneous Cameras across Diverse Fields of View&laquo;
+  &laquo;From Detection to Association: A Real-Time Framework for Multi-Target Multi-Camera Tracking using Heterogeneous Cameras across Diverse Fields of View&raquo;
 - Bachelor's Thesis:\
-  &raquo;Automatisiertes Testen von Softwareartefakten auf heterogenen und ressourcenbeschränkten industriellen Edge-Devices&laquo;
+  &laquo;Automatisiertes Testen von Softwareartefakten auf heterogenen und ressourcenbeschränkten industriellen Edge-Devices&raquo;
 
 # 📊 Current Projects / Research
 
